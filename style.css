@@ -39,18 +39,18 @@ body {
   font-size: 1.5rem;
 }
 
-.coin {
+.coin-wrapper {
   width: 150px;
   height: 150px;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.coin:hover {
+.coin:hover, .random:hover {
   cursor: pointer;
 }
 
-.coin img {
+.coin {
   width: 100%;
 }
 
@@ -63,6 +63,7 @@ body {
 }
 
 .text {
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 
@@ -80,12 +81,24 @@ background-color: #1F6FB0;
 
   }
 
+@keyframes spin {
+from {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+
 
 .author-info {
   font-size: 13px;
   text-align: center;
   margin-top: 15px;
-  color: rgb(54, 65, 81);
+  color:  #ECEDF0;
+  margin-top: 2rem;
+  
 
 }
 
