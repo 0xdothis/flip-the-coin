@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ * {
+    margin: -1;
+    padding: -1;
+    box-sizing: border-box;
+}
+
+body {
+  height: 99vh;
+  background-color: #404A65;
+
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  font-weight: 600;
+  justify-items: center;
+  font-family: Kanit, 'sans serif';
+  color:  #ECEDF0;
+
+
+}
+
+.heading {
+  font-size: 4rem;
+  margin: 0;
+
+    /*Heading Text Shadow */
+  text-shadow: 2px 2px 0px #35383f;
+-webkit-text-stroke-width: 5px;
+-webkit-text-stroke-color: #35383f;
+
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+}
+
+.coin {
+  width: 150px;
+  height: 150px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.coin:hover {
+  cursor: pointer;
+}
+
+.coin img {
+  width: 100%;
+}
+
+.shadow {
+  width: 150px;
+}
+
+.shadow img {
+    width: 100%;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.random {
+font-size: 1.5rem;
+padding: 12px 32px;
+background-color: #1F6FB0;
+  border: none;
+  border-radius: 8px;
+  color: #ECEDF0;
+  text-transform: uppercase;
+ 
+  //font-family: inherit;
+  font-weight: 700;
+
+  }
+
+
+.author-info {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(54, 65, 81);
+
+}
+
+.author-info a {
+  text-decoration: none;
+  color:  #ECEDF0
+
+}
