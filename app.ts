@@ -5,9 +5,9 @@ const imgEl = document.querySelector(".coin") as HTMLImageElement;
 buttonEl.addEventListener("click", handleLogic);
 
 function handleLogic() {
-  const result = Math.random() < 0.5 ? "Head" : "Tail";
+  const result = Math.random() < 0.5 ? "Heads" : "Tails";
 
-  if (result === "Tail") {
+  if (result === "Tails") {
     imgEl.setAttribute("src", "./resources/tails.svg");
   } else {
     imgEl.setAttribute("src", "./resources/heads.svg");
